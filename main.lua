@@ -604,10 +604,11 @@ Logo.Parent = Holder
 Logo.BackgroundTransparency = 1
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0, 125, 0, 127)
-Logo.Size = UDim2.new(0, 10, 0, 10)
-Logo.Image = "rbxassetid://1352543873"
+Logo.Size = UDim2.new(0, 7.5, 0, 7.5)
+Logo.Image = "rbxassetid://13052298042"
 Logo.ImageTransparency = 0
 Logo.ZIndex = 10
+Logo.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
 Credits.Name = "Credits"
 Credits.Parent = Holder
