@@ -1858,7 +1858,6 @@ ViewportTextBox = (function()
 
 	local mt = {}
 	mt.__index = funcs
-    local seEvent = ReplicatedStorage:WaitForChild("Adonis_1", 20)
 
 	local function convert(textbox)
 		local obj = setmetatable({OffsetX = 0, TextBox = textbox},mt)
@@ -6280,6 +6279,7 @@ workspace:WaitForChild("Advanced Gate Package (DONT UNGROUP)"):WaitForChild("Eve
 end)
 
 addcmd('gearall',{},function(args, speaker)
+    local seEvent = ReplicatedStorage:WaitForChild("Adonis_1", 20)
     
     local gatetext = getstring(1)
     
@@ -6289,7 +6289,8 @@ addcmd('gearall',{},function(args, speaker)
 end)
 
 addcmd('gearself',{},function(args, speaker)
-    
+    local seEvent = ReplicatedStorage:WaitForChild("Adonis_1", 20)
+        
     local gatetext = getstring(1)
     
    if seEvent then
@@ -6298,7 +6299,8 @@ addcmd('gearself',{},function(args, speaker)
 end)
 
 addcmd('scaudio',{},function(args, speaker)
-    
+    local seEvent = ReplicatedStorage:WaitForChild("Adonis_1", 20)
+        
     local gatetext = getstring(1)
     
   if seEvent then
@@ -6307,7 +6309,8 @@ addcmd('scaudio',{},function(args, speaker)
 end)
 
 addcmd('nuke',{},function(args, speaker)
-    
+    local seEvent = ReplicatedStorage:WaitForChild("Adonis_1", 20)
+        
     local gatetext = getstring(1)
     
   if seEvent then
